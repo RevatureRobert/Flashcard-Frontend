@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
 import { DomainPipe } from './pipes/domain/domain.pipe';
 import { QuestionAnswerCardComponent } from './components/question-answer-card/question-answer-card.component'
+import {MatButtonModule} from '@angular/material/button'
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +24,8 @@ import { QuestionAnswerCardComponent } from './components/question-answer-card/q
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

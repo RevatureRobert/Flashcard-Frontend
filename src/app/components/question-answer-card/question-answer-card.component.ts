@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output } from '@angular/core';
 import { QuestionAndAnswer } from '../../models/QuestionAndAnswer';
 
 @Component({
@@ -9,6 +9,7 @@ import { QuestionAndAnswer } from '../../models/QuestionAndAnswer';
 export class QuestionAnswerCardComponent implements OnInit {
   @Input() questionAnswer!: QuestionAndAnswer;
   @Input('index') selection!: number;
+  // @Output() move: number;
   showAnswer: 'question' | 'answer' = 'question';
 
   constructor() {}

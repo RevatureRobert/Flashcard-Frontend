@@ -1,6 +1,16 @@
 <mat-card>
-    <div [ngSwitch]='showAnswer'>
-        <app-question *ngSwitchCase = "'question'" [question] = 'questionAnswer'></app-question>
-        <app-answer *ngSwitchCase = "'answer'" [answer] = 'questionAnswer'></app-answer>
-    </div>
+  <div [ngSwitch]="showAnswer">
+    <app-question
+      *ngSwitchCase="'question'"
+      [question]="questionAnswer"
+    ></app-question>
+    <app-answer *ngSwitchCase="'answer'" [answer]="questionAnswer"></app-answer>
+  </div>
+  <mat-card-footer>
+    <mat-card-actions>
+      <button mat-raised-button (click)="toggle()">
+        Show {{ showAnswer == "question" ? "answer" : "question" }}
+      </button>
+    </mat-card-actions>
+  </mat-card-footer>
 </mat-card>

@@ -6,11 +6,10 @@
       <p class="answerText">
         {{ answer.answer }}
       </p>
-    </mat-card-content>
-    <mat-card-footer>
-      <a [href]="answer.referenceLink.address" target="_blank">{{
+    
+      <a style="color: white;" [href]="answer.referenceLink.address" target="_blank">{{
         answer.referenceLink.address | domain
       }}</a>
-    </mat-card-footer>
+    </mat-card-content>
   </div>
   
