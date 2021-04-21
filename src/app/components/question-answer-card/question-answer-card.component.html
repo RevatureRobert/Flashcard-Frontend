@@ -1,0 +1,6 @@
+<mat-card>
+    <div [ngSwitch]='showAnswer'>
+        <app-question *ngSwitchCase = "'question'" [question] = 'questionAnswer'></app-question>
+        <app-answer *ngSwitchCase = "'answer'" [answer] = 'questionAnswer'></app-answer>
+    </div>
+</mat-card>

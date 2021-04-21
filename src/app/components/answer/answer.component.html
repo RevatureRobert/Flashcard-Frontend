@@ -1,1 +1,16 @@
-<p>answer works!</p>
+<div class="answer">
+    <mat-card-title>
+      {{ answer.id }}
+    </mat-card-title>
+    <mat-card-content>
+      <p class="answerText">
+        {{ answer.answer }}
+      </p>
+    </mat-card-content>
+    <mat-card-footer>
+      <a [href]="answer.referenceLink.address" target="_blank">{{
+        answer.referenceLink.address | domain
+      }}</a>
+    </mat-card-footer>
+  </div>
+  

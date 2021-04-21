@@ -1,0 +1,446 @@
+{
+    "topics":[
+        [
+            {
+                "id": 1,
+                "topic": "SQL"
+            },
+            {
+                "id": 2,
+                "topic": "Java"
+            },
+            {
+                "id": 3,
+                "topic": "Maven"
+            },
+            {
+                "id": 4,
+                "topic": "Testing"
+            },
+            {
+                "id": 5,
+                "topic": "git"
+            },
+            {
+                "id": 6,
+                "topic": "unix"
+            },
+            {
+                "id": 7,
+                "topic": "OOP"
+            },
+            {
+                "id": 8,
+                "topic": "Data Structures and Algorithms"
+            },
+            {
+                "id": 9,
+                "topic": "SDLC"
+            },
+            {
+                "id": 10,
+                "topic": "cloud"
+            },
+            {
+                "id": 11,
+                "topic": "HTTP"
+            },
+            {
+                "id": 12,
+                "topic": "REST"
+            },
+            {
+                "id": 13,
+                "topic": "SOAP"
+            },
+            {
+                "id": 14,
+                "topic": "DevOps"
+            },
+            {
+                "id": 15,
+                "topic": "Docker"
+            },
+            {
+                "id": 16,
+                "topic": "Hibernate"
+            },
+            {
+                "id": 17,
+                "topic": "Spring"
+            },
+            {
+                "id": 18,
+                "topic": "Caching"
+            },
+            {
+                "id": 19,
+                "topic": "JavaScript"
+            },
+            {
+                "id": 20,
+                "topic": "HTML & CSS"
+            },
+            {
+                "id": 21,
+                "topic": "Typescript"
+            },
+            {
+                "id": 22,
+                "topic": "Angular"
+            },
+            {
+                "id": 23,
+                "topic": "Reactive Programming"
+            },
+            {
+                "id": 24,
+                "topic": "Functional Programming"
+            },
+            {
+                "id": 25,
+                "topic": "JUnit"
+            },
+            {
+                "id": 26,
+                "topic": "Xml"
+            }
+        ]
+    ],
+    "questions_and_answers":[
+        {
+            "content": [
+                {
+                    "id": 122,
+                    "question": "What is the purpose of the Collections API",
+                    "answer": "A collections framework represents a unified application programming interface for not only representing collections of objects, but also for manipulating them in a consistent manner at a high enough level of abstraction to encourage reusability and good object-oriented design. ",
+                    "referenceLink": {
+                        "id": 18,
+                        "address": "https://objectcomputing.com/resources/publications/sett/november-1999-the-java-collections-api"
+                    },
+                    "responsible": {
+                        "id": 9,
+                        "name": "Joey Elmblad"
+                    },
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 123,
+                    "question": "What is a Linked List?",
+                    "answer": "Like arrays, Linked List is a linear data structure. Unlike arrays, linked list elements are not stored at a contiguous location; the elements are linked using pointers.",
+                    "referenceLink": {
+                        "id": 19,
+                        "address": "https://www.geeksforgeeks.org/linked-list-set-1-introduction/"
+                    },
+                    "responsible": {
+                        "id": 9,
+                        "name": "Joey Elmblad"
+                    },
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 124,
+                    "question": "What is an Array List?",
+                    "answer": null,
+                    "referenceLink": null,
+                    "responsible": null,
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 125,
+                    "question": "What is a Vector?",
+                    "answer": null,
+                    "referenceLink": null,
+                    "responsible": null,
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 126,
+                    "question": "What is the difference between a List and a Set?",
+                    "answer": null,
+                    "referenceLink": null,
+                    "responsible": null,
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 127,
+                    "question": "What is the difference between a Set and a Queue?",
+                    "answer": null,
+                    "referenceLink": null,
+                    "responsible": null,
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 128,
+                    "question": "What is a HashSet?",
+                    "answer": null,
+                    "referenceLink": null,
+                    "responsible": null,
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 129,
+                    "question": "What is a TreeSet?",
+                    "answer": null,
+                    "referenceLink": null,
+                    "responsible": null,
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 130,
+                    "question": "What is a Deque?",
+                    "answer": null,
+                    "referenceLink": null,
+                    "responsible": null,
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 131,
+                    "question": "What is a Map?",
+                    "answer": null,
+                    "referenceLink": null,
+                    "responsible": null,
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 132,
+                    "question": "What is a HashMap?",
+                    "answer": null,
+                    "referenceLink": null,
+                    "responsible": null,
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 133,
+                    "question": "What is a TreeMap?",
+                    "answer": null,
+                    "referenceLink": null,
+                    "responsible": null,
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 134,
+                    "question": "What is a HashTable?",
+                    "answer": null,
+                    "referenceLink": null,
+                    "responsible": null,
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 135,
+                    "question": "What is the difference between a HashTable and a HashMap?",
+                    "answer": null,
+                    "referenceLink": null,
+                    "responsible": null,
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 136,
+                    "question": "What is the stream api?",
+                    "answer": "forEach(), collect(), allMatch(), etc.",
+                    "referenceLink": {
+                        "id": 20,
+                        "address": "https://www.codejava.net/java-core/collections/java-8-stream-terminal-operations-examples"
+                    },
+                    "responsible": {
+                        "id": 23,
+                        "name": "Sam Daniel"
+                    },
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 137,
+                    "question": "What is a terminating operation of streams?",
+                    "answer": null,
+                    "referenceLink": null,
+                    "responsible": null,
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 138,
+                    "question": "What is an intermediate operation of streams?",
+                    "answer": null,
+                    "referenceLink": null,
+                    "responsible": null,
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 139,
+                    "question": "What does the streams method, filter, do?",
+                    "answer": null,
+                    "referenceLink": null,
+                    "responsible": null,
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 140,
+                    "question": "What does the streams method, map, do?",
+                    "answer": null,
+                    "referenceLink": null,
+                    "responsible": null,
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 141,
+                    "question": "What does the streams method, reduce, do?",
+                    "answer": "Combines all elements in a stream into one element",
+                    "referenceLink": null,
+                    "responsible": {
+                        "id": 3,
+                        "name": "Mikayla Pickett"
+                    },
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 142,
+                    "question": "What is a Collector?",
+                    "answer": "A mutable reduction operation that accumulates input elements into a mutable result container, optionally transforming the accumulated result into a final representation after all input elements have been processed.",
+                    "referenceLink": null,
+                    "responsible": {
+                        "id": 20,
+                        "name": "Derick Toyota"
+                    },
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 143,
+                    "question": "What is the Iterable interface?",
+                    "answer": null,
+                    "referenceLink": null,
+                    "responsible": null,
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 144,
+                    "question": "What is the Collection interface?",
+                    "answer": null,
+                    "referenceLink": null,
+                    "responsible": null,
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 145,
+                    "question": "What is the Collections class?",
+                    "answer": "Java collection class is used exclusively with static methods that operate on or return collections.",
+                    "referenceLink": {
+                        "id": 21,
+                        "address": "https://www.javatpoint.com/java-collections-class"
+                    },
+                    "responsible": {
+                        "id": 9,
+                        "name": "Joey Elmblad"
+                    },
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                },
+                {
+                    "id": 146,
+                    "question": "What is a predicate?",
+                    "answer": null,
+                    "referenceLink": null,
+                    "responsible": null,
+                    "topic": {
+                        "id": 2,
+                        "topic": "Java"
+                    }
+                }
+            ],
+            "pageable": {
+                "sort": {
+                    "sorted": false,
+                    "unsorted": true,
+                    "empty": true
+                },
+                "offset": 0,
+                "pageNumber": 0,
+                "pageSize": 25,
+                "paged": true,
+                "unpaged": false
+            },
+            "last": false,
+            "totalPages": 4,
+            "totalElements": 86,
+            "size": 25,
+            "number": 0,
+            "sort": {
+                "sorted": false,
+                "unsorted": true,
+                "empty": true
+            },
+            "numberOfElements": 25,
+            "first": true,
+            "empty": false
+        }
+    ]
+}
