@@ -18,7 +18,6 @@ import { AnswerComponent } from './components/answer/answer.component';
 import { FlashNavComponent } from './components/flash-nav/flash-nav.component';
 import { FlashcardListDataSource } from './components/flashcard-list/flashcard-list-datasource';
 import { FlashcardListComponent } from './components/flashcard-list/flashcard-list.component';
-import { HeaderComponent } from './components/header/header.component';
 import { QuestionAnswerCardComponent } from './components/question-answer-card/question-answer-card.component';
 import { QuestionComponent } from './components/question/question.component';
 import { CacheInterceptor } from './interceptors/cache.interceptor';
@@ -30,7 +29,6 @@ import { FlashcardService } from './services/flashcard.service';
     AppComponent,
     QuestionComponent,
     AnswerComponent,
-    HeaderComponent,
     DomainPipe,
     QuestionAnswerCardComponent,
     FlashNavComponent,
