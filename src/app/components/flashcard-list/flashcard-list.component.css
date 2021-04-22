@@ -1,0 +1,21 @@
+.full-width-table {
+  width: 100%;
+}
+table {
+  text-align: center;
+}
+#id-col {
+  width: 10%;
+  text-justify: auto;
+  text-align: center;
+}
+#q-col {
+  width: 45%;
+  text-justify: auto;
+  text-align: center;
+}
+#a-col {
+  width: 45%;
+  text-justify: auto;
+  text-align: center;
+}

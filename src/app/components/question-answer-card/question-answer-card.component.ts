@@ -1,5 +1,6 @@
 import { Component, Input, OnInit, Output } from '@angular/core';
 import { QuestionAndAnswer } from '../../models/QuestionAndAnswer';
+import { FlashcardService } from '../../services/flashcard.service';
 
 @Component({
   selector: 'app-question-answer-card',
@@ -7,13 +8,10 @@ import { QuestionAndAnswer } from '../../models/QuestionAndAnswer';
   styleUrls: ['./question-answer-card.component.css'],
 })
 export class QuestionAnswerCardComponent implements OnInit {
-  @Input() questionAnswer!: QuestionAndAnswer;
-  @Input('index') selection!: number;
-  // @Output() move: number;
   showAnswer: 'question' | 'answer' = 'question';
 
-  constructor() {}
-
+  constructor(private service: FlashcardService) {}
+  questionAnswer: QuestionAndAnswer = this.service.currentQuestion
   ngOnInit(): void {}
 
   toggle() {

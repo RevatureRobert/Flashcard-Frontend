@@ -1,4 +1,4 @@
-<mat-card>
+<mat-card class='dark-text' id='qaCard'>
   <div [ngSwitch]="showAnswer">
     <app-question
       *ngSwitchCase="'question'"
@@ -8,7 +8,7 @@
   </div>
   <mat-card-footer>
     <mat-card-actions>
-      <button mat-raised-button (click)="toggle()">
+      <button id='bottomButton' mat-raised-button (click)="toggle()">
         Show {{ showAnswer == "question" ? "answer" : "question" }}
       </button>
     </mat-card-actions>

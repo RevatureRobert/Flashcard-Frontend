@@ -1,0 +1,34 @@
+<div class="mat-elevation-z8">
+  <table mat-table class="full-width-table" matSort aria-label="Elements">
+    <ng-container matColumnDef="id">
+      <th id="id-col" mat-header-cell *matHeaderCellDef mat-sort-header>Id</th>
+      <td id="id-col" mat-cell *matCellDef="let row">{{ row.id }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="question">
+      <th id="q-col" mat-header-cell *matHeaderCellDef mat-sort-header>
+        Question
+      </th>
+      <td id="q-col" mat-cell *matCellDef="let row">{{ row.question }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="answer">
+      <th mat-header-cell id="a-col" *matHeaderCellDef mat-sort-header>
+        Answer
+      </th>
+      <td mat-cell id="a-col" *matCellDef="let row">{{ row.answer }}</td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+  </table>
+
+  <mat-paginator
+    #paginator
+    [length]="dataSource?.data?.length"
+    [pageIndex]="0"
+    [pageSize]="10"
+    [pageSizeOptions]="[5, 10, 20]"
+  >
+  </mat-paginator>
+</div>
