@@ -19,7 +19,7 @@ export class FlashcardService {
 
   constructor(private apiClient: HttpClient) {
     console.log("constructed");
-    this.questions().then(q => this._flashcardQuestions=q.filter(i => i.answer))
+    this.questions().then(q => { console.log(q);this._flashcardQuestions=q.filter(i => i.answer)})
   }
 
   // get the list of topics, initialize if undefined
@@ -43,9 +43,10 @@ export class FlashcardService {
         .toPromise();
       this.currentIndex = 0;
       this._questions = qs;
+      
       return qs;
     }
-    return new Promise<QuestionAndAnswer[]>((res, rej) => res(this._questions));
+    return await new Promise<QuestionAndAnswer[]>((res, rej) => res(this._questions));
   }
 
   // returns the question at the current index, given by state, of the question array

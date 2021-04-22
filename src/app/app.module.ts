@@ -1,5 +1,5 @@
 import { LayoutModule } from '@angular/cdk/layout';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
@@ -21,6 +21,7 @@ import { FlashcardListComponent } from './components/flashcard-list/flashcard-li
 import { HeaderComponent } from './components/header/header.component';
 import { QuestionAnswerCardComponent } from './components/question-answer-card/question-answer-card.component';
 import { QuestionComponent } from './components/question/question.component';
+import { CacheInterceptor } from './interceptors/cache.interceptor';
 import { DomainPipe } from './pipes/domain/domain.pipe';
 import { FlashcardService } from './services/flashcard.service';
 
@@ -51,7 +52,7 @@ import { FlashcardService } from './services/flashcard.service';
     MatSortModule,
     HttpClientModule
   ],
-  providers: [FlashcardService, FlashcardListDataSource],
+  providers: [FlashcardService, FlashcardListDataSource, {provide: HTTP_INTERCEPTORS, useClass: CacheInterceptor, multi: true}],
   bootstrap: [AppComponent],
 })
 export class AppModule {
