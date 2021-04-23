@@ -10,7 +10,12 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', async () => {
     await page.navigateTo();
-    expect(await page.getTitleText()).toEqual('flashcard-frontend app is running!');
+    // expect(await page.getTitleText()).toEqual('flashcard-frontend app is running!');
+    (await page.getAppElement('#menuToggle')).click();
+    (await page.getAppElement('#list')).click();
+    (await page.getMultipleElements('.mat-ripple'))[5].click();
+
+    
   });
 
   afterEach(async () => {

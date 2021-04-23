@@ -5,13 +5,14 @@
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
       <a mat-list-item routerLink='flashcard'>Current Flashcard</a>
-      <a mat-list-item routerLink='list'>Flashcard List</a>
+      <a mat-list-item routerLink='list' id="list">Flashcard List</a>
       <a mat-list-item href="#">Placeholder</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
     <mat-toolbar color="primary">
       <button
+      id='menuToggle'
         type="button"
         aria-label="Toggle sidenav"
         mat-icon-button
